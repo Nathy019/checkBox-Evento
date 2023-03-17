@@ -135,10 +135,10 @@ namespace checkBox_Evento
 
         private void checkBoxFlu_CheckedChanged(object sender, EventArgs e)
         {
-            if (checkBoxFlu.Checked)
-            {
-                MessageBox.Show("O item Fluminense foi marcado");
-            }
+            //if (checkBoxFlu.Checked)
+            //{
+            //    MessageBox.Show("O item Fluminense foi marcado");
+            //}
         }
     }
 }

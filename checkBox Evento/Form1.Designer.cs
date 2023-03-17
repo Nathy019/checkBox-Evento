@@ -61,7 +61,7 @@
             this.checkBoxFla.TabIndex = 1;
             this.checkBoxFla.Text = "Flamengo";
             this.checkBoxFla.UseVisualStyleBackColor = false;
-            this.checkBoxFla.CheckedChanged += new System.EventHandler(this.checkBoxFla_CheckedChanged);
+           
             // 
             // checkBoxPal
             // 
@@ -76,7 +76,7 @@
             this.checkBoxPal.TabIndex = 2;
             this.checkBoxPal.Text = "Palmeiras";
             this.checkBoxPal.UseVisualStyleBackColor = false;
-            this.checkBoxPal.CheckedChanged += new System.EventHandler(this.checkBoxPal_CheckedChanged);
+            
             // 
             // checkBoxCor
             // 
@@ -91,7 +91,7 @@
             this.checkBoxCor.TabIndex = 3;
             this.checkBoxCor.Text = "Corinthians";
             this.checkBoxCor.UseVisualStyleBackColor = false;
-            this.checkBoxCor.CheckedChanged += new System.EventHandler(this.checkBoxCor_CheckedChanged);
+            
             // 
             // checkBoxSao
             // 
@@ -105,7 +105,7 @@
             this.checkBoxSao.TabIndex = 4;
             this.checkBoxSao.Text = "São Paulo";
             this.checkBoxSao.UseVisualStyleBackColor = false;
-            this.checkBoxSao.CheckedChanged += new System.EventHandler(this.checkBoxSao_CheckedChanged);
+            
             // 
             // checkBoxSan
             // 
@@ -120,7 +120,7 @@
             this.checkBoxSan.TabIndex = 5;
             this.checkBoxSan.Text = "Santos";
             this.checkBoxSan.UseVisualStyleBackColor = false;
-            this.checkBoxSan.CheckedChanged += new System.EventHandler(this.checkBoxSan_CheckedChanged);
+            
             // 
             // checkBoxFlu
             // 
@@ -135,7 +135,7 @@
             this.checkBoxFlu.TabIndex = 6;
             this.checkBoxFlu.Text = "Fluminense";
             this.checkBoxFlu.UseVisualStyleBackColor = false;
-            this.checkBoxFlu.CheckedChanged += new System.EventHandler(this.checkBoxFlu_CheckedChanged);
+           
             // 
             // button1
             // 
@@ -148,7 +148,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(940, 40);
             this.button1.TabIndex = 7;
-            this.button1.Text = "Escolha o time a baixo e clique aqui!";
+            this.button1.Text = "Escolha o time abaixo e clique aqui!";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
