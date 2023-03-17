@@ -51,8 +51,9 @@
             // checkBoxFla
             // 
             this.checkBoxFla.AutoSize = true;
-            this.checkBoxFla.BackColor = System.Drawing.Color.Red;
+            this.checkBoxFla.BackColor = System.Drawing.Color.Black;
             this.checkBoxFla.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxFla.ForeColor = System.Drawing.Color.White;
             this.checkBoxFla.Location = new System.Drawing.Point(112, 90);
             this.checkBoxFla.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxFla.Name = "checkBoxFla";
@@ -67,6 +68,7 @@
             this.checkBoxPal.AutoSize = true;
             this.checkBoxPal.BackColor = System.Drawing.Color.Green;
             this.checkBoxPal.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBoxPal.ForeColor = System.Drawing.Color.White;
             this.checkBoxPal.Location = new System.Drawing.Point(527, 90);
             this.checkBoxPal.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxPal.Name = "checkBoxPal";
@@ -123,8 +125,9 @@
             // checkBoxFlu
             // 
             this.checkBoxFlu.AutoSize = true;
-            this.checkBoxFlu.BackColor = System.Drawing.Color.Green;
+            this.checkBoxFlu.BackColor = System.Drawing.Color.Red;
             this.checkBoxFlu.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold);
+            this.checkBoxFlu.ForeColor = System.Drawing.Color.White;
             this.checkBoxFlu.Location = new System.Drawing.Point(721, 379);
             this.checkBoxFlu.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxFlu.Name = "checkBoxFlu";
@@ -165,8 +168,9 @@
             // checkBoxInt
             // 
             this.checkBoxInt.AutoSize = true;
-            this.checkBoxInt.BackColor = System.Drawing.Color.Red;
+            this.checkBoxInt.BackColor = System.Drawing.Color.White;
             this.checkBoxInt.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold);
+            this.checkBoxInt.ForeColor = System.Drawing.Color.Red;
             this.checkBoxInt.Location = new System.Drawing.Point(336, 244);
             this.checkBoxInt.Name = "checkBoxInt";
             this.checkBoxInt.Size = new System.Drawing.Size(59, 23);
@@ -189,9 +193,9 @@
             // checkBoxCea
             // 
             this.checkBoxCea.AutoSize = true;
-            this.checkBoxCea.BackColor = System.Drawing.Color.Black;
+            this.checkBoxCea.BackColor = System.Drawing.Color.White;
             this.checkBoxCea.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold);
-            this.checkBoxCea.ForeColor = System.Drawing.Color.White;
+            this.checkBoxCea.ForeColor = System.Drawing.Color.Black;
             this.checkBoxCea.Location = new System.Drawing.Point(112, 517);
             this.checkBoxCea.Name = "checkBoxCea";
             this.checkBoxCea.Size = new System.Drawing.Size(67, 23);
@@ -217,6 +221,7 @@
             this.checkBoxBra.AutoSize = true;
             this.checkBoxBra.BackColor = System.Drawing.Color.Red;
             this.checkBoxBra.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold);
+            this.checkBoxBra.ForeColor = System.Drawing.Color.White;
             this.checkBoxBra.Location = new System.Drawing.Point(322, 517);
             this.checkBoxBra.Name = "checkBoxBra";
             this.checkBoxBra.Size = new System.Drawing.Size(102, 23);
@@ -254,6 +259,7 @@
             this.checkBoxGre.AutoSize = true;
             this.checkBoxGre.BackColor = System.Drawing.Color.DodgerBlue;
             this.checkBoxGre.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold);
+            this.checkBoxGre.ForeColor = System.Drawing.Color.White;
             this.checkBoxGre.Location = new System.Drawing.Point(730, 94);
             this.checkBoxGre.Name = "checkBoxGre";
             this.checkBoxGre.Size = new System.Drawing.Size(78, 23);
@@ -264,8 +270,9 @@
             // checkBoxFor
             // 
             this.checkBoxFor.AutoSize = true;
-            this.checkBoxFor.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.checkBoxFor.BackColor = System.Drawing.Color.White;
             this.checkBoxFor.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold);
+            this.checkBoxFor.ForeColor = System.Drawing.Color.DodgerBlue;
             this.checkBoxFor.Location = new System.Drawing.Point(721, 248);
             this.checkBoxFor.Name = "checkBoxFor";
             this.checkBoxFor.Size = new System.Drawing.Size(90, 23);
@@ -278,6 +285,7 @@
             this.checkBoxTiba.AutoSize = true;
             this.checkBoxTiba.BackColor = System.Drawing.Color.ForestGreen;
             this.checkBoxTiba.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold);
+            this.checkBoxTiba.ForeColor = System.Drawing.Color.White;
             this.checkBoxTiba.Location = new System.Drawing.Point(730, 517);
             this.checkBoxTiba.Name = "checkBoxTiba";
             this.checkBoxTiba.Size = new System.Drawing.Size(82, 23);
@@ -291,7 +299,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.BackgroundImage = global::checkBox_Evento.Properties.Resources.times;
-            this.ClientSize = new System.Drawing.Size(828, 577);
+            this.ClientSize = new System.Drawing.Size(835, 581);
             this.ControlBox = false;
             this.Controls.Add(this.checkBoxTiba);
             this.Controls.Add(this.checkBoxFor);
